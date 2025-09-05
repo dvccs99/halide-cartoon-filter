@@ -1,7 +1,7 @@
 # Filtro de cartunização simplificado
 Filtro para abstração de imagens, feito em [Halide](https://halide-lang.org/). Uma versão simplificada do filtro descrito [neste paper](https://dl.acm.org/doi/abs/10.1145/1141911.1142018).
 
-Esse código foi produzido como projeto final da disciplina da DSL Halide no curso de fotografia computacional com ênfase em dispositivos móveis e inteligência artificial do CIn/UFPE ([link](https://luxai.cin.ufpe.br/cursos.html)).
+Esse código foi produzido como projeto final da disciplina da DSL Halide no curso de fotografia computacional com ênfase em dispositivos móveis e inteligência artificial do CIn/UFPE em 2024 ([link](https://luxai.cin.ufpe.br/cursos.html)).
 
 ## Requisitos
 O Halide utilizado foi o [v16.0.0](https://github.com/halide/Halide/releases/tag/v16.0.0). Para executar o código, é necessário que:
