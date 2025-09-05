@@ -29,6 +29,6 @@ bin/main: src/main.cpp bin/npr.o
 test: bin/main
 	@mkdir -p outputs
 	@for i in `find "inputs/" -type f -name "*.png"`; do $^ $$i outputs/`basename $$i`; done
-	@/home/dot/dev/cartoon-filter/.venv/bin/pytest
+	@.venv/bin/python3 -m pytest -v
 
 .PHONY: all clean
